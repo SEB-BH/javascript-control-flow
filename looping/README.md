@@ -35,9 +35,13 @@ for (let number = 1; number <= 5; number++) {
 }
 ```
 1: `for` - **`For` Keyword :** Tells JavaScript we're writing a for loop.
+
 2: `let number = 1` — **Initialization (start):** Create a counter beginning at 1. This runs once.
+
 3: `number <= 5` — **Condition (check):** Continue while this condition is truthy. JavaScript checks it before each repeat.
+
 4: `number++` — **Afterthought (update):** Add 1 to `number` after each repeat.
+
 5: `{ ... }` - **Statement :*** What we want our for loop to _do_.
 
 The code inside `{}` is the part that repeats.
