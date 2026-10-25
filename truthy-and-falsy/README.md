@@ -55,17 +55,6 @@ if (customerName) {
 
 Change `customerName` to `''` and run it again. The `else` block will run.
 
-If you need to check whether an array has items, check its **length** instead:
-
-```js
-const orders = []
-
-if (orders.length > 0) {
-  console.log('Orders found')
-} else {
-  console.log('No orders yet')
-}
-```
 
 ## 🎓 You Do
 
