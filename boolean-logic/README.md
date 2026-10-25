@@ -9,12 +9,12 @@
 
 A **Boolean** is either `true` or `false`.
 
+In JavaScript, an **expression** is code that produces a value. For example, `10 > 5` is an expression. Its value is `true`.
+
 ```js
 console.log(10 > 5)  // true
 console.log(10 < 5)  // false
 ```
-
-In JavaScript, an **expression** is code that produces a value. For example, `10 > 5` is an expression. Its value is `true`.
 
 An **operator** is a symbol that does a job, such as `>` or `===`.
 
