@@ -22,12 +22,12 @@ An **operator** is a symbol that does a job, such as `>` or `===`.
 
 | Operator | Meaning | Example | Result |
 | --- | --- | --- | --- |
-| `===` | Equal to (same value and type) | `3 === 3` | `true` |
-| `!==` | Not equal to | `3 !== 4` | `true` |
 | `>` | Greater than | `8 > 5` | `true` |
 | `<` | Less than | `8 < 5` | `false` |
 | `>=` | Greater than or equal to | `5 >= 5` | `true` |
 | `<=` | Less than or equal to | `4 <= 5` | `true` |
+| `===` | Equal to (same value and type) | `3 === 3` | `true` |
+| `!==` | Not equal to | `3 !== 4` | `true` |
 
 Try these in `app.js`:
 
