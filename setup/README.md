@@ -3,45 +3,27 @@
   <span class="subhead">Setup</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, you will be able to run a JavaScript file with Node.js.
-
-We will write JavaScript in `app.js` and see the results in the terminal. You do not need an HTML file for this lesson.
-
-## Create the project
-
-Open **Git Bash** (Windows) or **Terminal** (Mac). Make a folder for your work:
+Open your Terminal application and navigate to your `~/code/ga/lectures` directory:
 
 ```bash
-mkdir -p ~/code/ga/lectures
 cd ~/code/ga/lectures
+```
+
+Make a new directory called `javascript-control-flow`, then enter this directory:
+
+```bash
 mkdir javascript-control-flow
 cd javascript-control-flow
-touch app.js
-code .
 ```
 
-> 💡 If you already have a `lectures` folder, you can use it. If `code .` does not work, open the `javascript-control-flow` folder in VS Code yourself.
-
-## Check your setup
-
-In `app.js`, add:
-
-```js
-console.log('JavaScript is working!')
-```
-
-Save the file. In the VS Code terminal, run:
+Then, create an `app.js` file. This files will hold your work for this lecture:
 
 ```bash
-node app.js
+touch app.js
 ```
 
-You should see:
+With the file created, open the contents of the directory in VS Code:
 
-```text
-JavaScript is working!
+```bash
+code .
 ```
-
-Every time you change your code, **save the file and run `node app.js` again**.
-
-> 🧠 If the terminal says `node: command not found` or `node is not recognized`, ask an instructor to help you check your Node.js installation.
