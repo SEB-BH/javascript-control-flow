@@ -16,9 +16,9 @@ console.log(10 > 5)  // true
 console.log(10 < 5)  // false
 ```
 
-An **operator** is a symbol that does a job, such as `>` or `===`.
-
 ## Comparison Operators
+
+An **operator** is a symbol that does a job, such as `>` or `===`.
 
 | Operator | Meaning | Example | Result |
 | --- | --- | --- | --- |
