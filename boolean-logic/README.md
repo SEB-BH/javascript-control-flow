@@ -18,7 +18,7 @@ In JavaScript, an **expression** is code that produces a value. For example, `10
 
 An **operator** is a symbol that does a job, such as `>` or `===`.
 
-## Compare values
+## Comparison Operators
 
 | Operator | Meaning | Example | Result |
 | --- | --- | --- | --- |
@@ -41,7 +41,7 @@ console.log(productPrice === 20)    // false
 
 > 🧠 Use `===` to check equality. Do not confuse it with `=`: one equals sign **assigns** a value to a variable.
 
-## Combine conditions
+## Combine conditions with Logical Operators
 
 Sometimes we need to check **two conditions**.
 
@@ -71,7 +71,11 @@ const isClosed = false
 console.log(!isClosed) // true
 ```
 
-You can use these with comparisons:
+### Combining logical operators with comparisons
+
+We can also combine logical operators with comparison operators.
+
+For example, imagine a store that only gives discounts to customers who are at least 18 years old AND have a membership.
 
 ```js
 const age = 22
